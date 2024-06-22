@@ -1,29 +1,25 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+    background: #f4f4f4;
 }
 
 header {
     background: #333;
-    color: white;
-    padding: 20px 0;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
-    border-bottom: 4px solid #00bfff;
+}
+
+header h1 {
+    margin: 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
@@ -32,42 +28,21 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
 }
 
-.section {
-    padding: 40px 0;
+main {
+    padding: 20px;
     background: #fff;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.section:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.section p {
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
 }
 
 footer {
     background: #333;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
-    border-top: 4px solid #00bfff;
-    position: relative;
+    padding: 1rem 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
