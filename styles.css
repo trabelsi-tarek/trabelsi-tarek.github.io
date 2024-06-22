@@ -98,3 +98,20 @@ footer {
     color: blue;
     margin-top: 20px;
 }
+
+.photo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.research-photo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.caption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
