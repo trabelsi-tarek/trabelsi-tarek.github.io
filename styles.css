@@ -54,3 +54,22 @@ footer {
     bottom: 0; /* Align to the bottom */
     width: 100%; /* Full width */
 }
+
+#publications {
+    padding: 20px; /* Padding for the publications section */
+    background: #e2e2e2; /* Light grey background for publications section */
+    margin-top: 20px; /* Space above the section */
+}
+
+#publications h2 {
+    text-align: center; /* Center align the heading */
+}
+
+#publications ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+#publications ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
