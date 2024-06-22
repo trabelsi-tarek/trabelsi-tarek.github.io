@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Century', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -68,36 +68,10 @@ h2 {
     margin-top: 0;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-#publications {
-    padding: 20px;
-    background: #e2e2e2;
-    margin-top: 20px;
-}
-
-#publications h2 {
-    text-align: center;
-}
-
-#publications ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#publications ul li {
-    margin-bottom: 10px;
-}
-
-.publication-year {
-    font-weight: bold;
-    color: blue;
-    margin-top: 20px;
+.about-me {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .photo-container {
@@ -115,4 +89,11 @@ footer {
     font-size: 14px;
     color: #555;
     margin-top: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }
