@@ -92,3 +92,9 @@ footer {
 #publications ul li {
     margin-bottom: 10px;
 }
+
+.publication-year {
+    font-weight: bold;
+    color: blue;
+    margin-top: 20px;
+}
