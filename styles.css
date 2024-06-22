@@ -37,7 +37,7 @@ main {
     background: #fff;
 }
 .profile-photo {
-    max-width: 80px;
+    max-width: 150px;
     height: auto;
     display: block;
     margin: 0 auto 20px;
