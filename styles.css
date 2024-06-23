@@ -102,3 +102,13 @@ footer {
 .fas, .fab {
     margin-right: 5px;
 }
+
+.publication-year {
+    font-weight: bold;
+    color: blue;
+}
+
+.bold-black {
+    font-weight: bold;
+    color: black;
+}
