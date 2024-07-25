@@ -112,3 +112,13 @@ footer {
     font-weight: bold;
     color: black;
 }
+
+#research-highlights a {
+    color: blue; /* Change to the desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+#research-highlights a:hover {
+    color: red; /* Optional: Change color on hover */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
