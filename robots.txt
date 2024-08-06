@@ -1,0 +1,7 @@
+# robots.txt file for www.ttrabelsi.com
+
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://www.ttrabelsi.com/sitemap.xml
